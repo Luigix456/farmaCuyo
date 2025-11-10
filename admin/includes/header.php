@@ -27,6 +27,7 @@ if (session_status() === PHP_SESSION_NONE) {
             <li class="nav-item"><a class="nav-link" href="/farmaCuyo/admin/usuarios/">Usuarios</a></li>
             <li class="nav-item"><a class="nav-link" href="/farmaCuyo/admin/productos/">Productos</a></li>
             <li class="nav-item"><a class="nav-link" href="/farmaCuyo/admin/categorias/">Categorías</a></li>
+            <li class="nav-item"><a class="nav-link" href="/farmaCuyo/admin/clientes/">Clientes</a></li>
           </ul>
           <span class="navbar-text text-white me-2">
             <?= htmlspecialchars($_SESSION["user_nombre"] ?? "") ?>
