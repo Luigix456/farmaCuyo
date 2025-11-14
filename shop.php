@@ -77,9 +77,9 @@ if (!empty($_SESSION['cart'])) {
         <div class="main-nav d-none d-lg-block">
           <nav class="site-navigation text-right text-md-center" role="navigation">
             <ul class="site-menu js-clone-nav d-none d-lg-block">
-              <li><a href="index.php">Home</a></li>
-              <li class="active"><a href="shop.php">Store</a></li>
-              <li><a href="contact.php">Contact</a></li>
+              <li><a href="index.php">Inicio</a></li>
+              <li class="active"><a href="shop.php">Productos</a></li>
+              <li><a href="contact.php">Contacto</a></li>
             </ul>
           </nav>
         </div>
